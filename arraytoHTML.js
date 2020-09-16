@@ -16,7 +16,7 @@ function toTable(data, options) {
             attrs: {} // attributes for the table element, can be used to
         };
 
-    options = .extend(defaults, options);
+    options = extend(defaults, options);
 
     table.attr(options.attrs);
 
